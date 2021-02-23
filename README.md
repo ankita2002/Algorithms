@@ -1,5 +1,5 @@
 # Algorithms
-<h4>Insertion Sort : </h4>
+<h3>Insertion Sort : </h3>
 
 Algorithm:
 
