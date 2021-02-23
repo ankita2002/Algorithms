@@ -1,5 +1,5 @@
 # Algorithms
-<h3>Insertion Sort : </h3>
+<h2>Insertion Sort : </h2>
 
 Algorithm:
 
@@ -16,4 +16,5 @@ Step 5 − Insert the value at the correct position
 Step 6 − Repeat until the complete list is sorted
 
 ***Time Complexity for the program on Insertion Sort***
+
 Time Complexity: O(n^2)
