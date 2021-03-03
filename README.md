@@ -20,8 +20,13 @@ Algorithm:
 // input array: a, low: first index of an array, high: last index of an array, x: element to be searched.
 binarysearch(int a[], int low, int high, int x) <br>
 1. int mid <br>
-2. if(low>high) return 0 <br>
-3. else	 mid=(low+high)/2 <br>
-4. if(x==a[mid]) return mid <br>
-5. else if(x<a[mid])  return binarysearch(a,low,mid-1,x) <br>
-6. else return binarysearch(a,mid+1,high,x) <br>
+2. if(low>high)    
+     return 0 <br>
+3. else	 
+     mid=(low+high)/2 <br>
+4. if(x==a[mid]) 
+       return mid <br>
+5. else if(x<a[mid])  
+     return binarysearch(a,low,mid-1,x) <br>
+6. else 
+     return binarysearch(a,mid+1,high,x) <br>
