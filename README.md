@@ -12,3 +12,21 @@ Step 6 − Repeat until the complete list is sorted <br>
 
 ***Time Complexity for the program on Insertion Sort*** <br>
 Time Complexity: O(n^2)
+<br><br>
+<h2>Binary Search using divide and conquer method </h2>
+
+Algorithm:
+
+// input array: a, low: first index of an array, high: last index of an array, x: element to be searched.
+binarysearch(int a[], int low, int high, int x) <br>
+1. int mid <br>
+2. if(low>high) <br>
+3. 	return 0 <br>
+     else <br>
+4.	mid=(low+high)/2 <br>
+5.	if(x==a[mid]) <br>
+6.		return mid <br>
+7.	else if(x<a[mid]) <br>
+8.		return binarysearch(a,low,mid-1,x) <br>
+	else <br>
+9.		return binarysearch(a,mid+1,high,x) <br>
