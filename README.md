@@ -35,15 +35,15 @@ binarysearch(int a[], int low, int high, int x) <br>
 
 Algorithm
 
-MergeSort(arr[], l,  r)
-If r > l
-     1. Find the middle point to divide the array into two halves:  
-             middle m = l+ (r-l)/2
-     2. Call mergeSort for first half:   
-             Call mergeSort(arr, l, m)
-     3. Call mergeSort for second half:
-             Call mergeSort(arr, m+1, r)
-     4. Merge the two halves sorted in step 2 and 3:
-             Call merge(arr, l, m, r)
+MergeSort(arr[], l,  r) <br>
+If r > l <br>
+     1. Find the middle point to divide the array into two halves:   <br>
+             middle m = l+ (r-l)/2 <br>
+     2. Call mergeSort for first half: <br>   
+             Call mergeSort(arr, l, m) <br>
+     3. Call mergeSort for second half: <br>
+             Call mergeSort(arr, m+1, r) <br>
+     4. Merge the two halves sorted in step 2 and 3: <br>
+             Call merge(arr, l, m, r) <br>
             
 <img src ="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Merge-Sort-Tutorial.png">
