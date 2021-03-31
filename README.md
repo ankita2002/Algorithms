@@ -74,8 +74,7 @@ Partitioning is illustrated on the above example. <br>
       Two "fingers" are used to scan the elements from left to right and from right to left: <br>
 <br>
       [5, 3, 25, 6, 10, 17, 1, 2, 18, 8] <br>
-       ^                              ^  <br>
-       i                              j   <br>
+       i =5                  ,            j =8   <br>
            * While i is to the left of j, we move i right, skipping all the elements less than the pivot. If an element is found greater then the pivot, i stops <br>
            * While j is to the right of i, we move j left, skipping all the elements greater than the pivot. If an element is found less then the pivot, j stops <br>
            * When both i and j have stopped, the elements are swapped. <br>
